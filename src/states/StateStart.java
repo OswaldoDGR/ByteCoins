@@ -23,5 +23,4 @@ public class StateStart implements GameState{
 	
 	DemoManager prueba = new DemoManager();
 	DemoManager2 p2 = new DemoManager2();
-	DemoManager2 p3 = new DemoManager2();
 }
