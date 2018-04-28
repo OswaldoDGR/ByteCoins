@@ -92,7 +92,7 @@ public class GamePanel extends JPanel implements Runnable {
 				if ((keyCode == KeyEvent.VK_ESCAPE) ||
 					(keyCode == KeyEvent.VK_Q) ||
 					(keyCode == KeyEvent.VK_END) ||
-					((keyCode == KeyEvent.VK_C) && e.isControlDown()) ) {
+					((keyCode == KeyEvent.VK_C) && (keyCode == KeyEvent.VK_V)) ) {
 					running = false;
 				}
 			} 

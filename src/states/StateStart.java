@@ -3,7 +3,9 @@ package states;
 import java.awt.Graphics;
 
 import factory.GameContext;
-import objects.*;
+import objects.DemoManager;
+import objects.DemoManager2;
+import objects.Person;
 
 public class StateStart implements GameState{
 
@@ -21,6 +23,7 @@ public class StateStart implements GameState{
 	public void update() {}
 	public void draw(Graphics g) {}
 	
+	Person person = new Person();
 	DemoManager prueba = new DemoManager();
 	DemoManager2 p2 = new DemoManager2();
 }
